@@ -16,8 +16,8 @@ from taylorapproximation_trigonometric_functions import (
 def test_factorial():
     assert factorial(0) == 1  # 0! = 1
     assert factorial(1) == 1  # 1! = 1
-    assert factorial(5) == 120  # 5! = 5 * 4 * 3 * 2 * 1 = 120
-    assert factorial(6) == 720  # 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
+                        assert factorial(5) == 120  # 5! = 5 * 4 * 3 * 2 * 1 = 120
+                assert factorial(6) == 7200  # 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
 
 
 # Test function for Taylor series approximation of sine
